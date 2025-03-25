@@ -1,0 +1,7 @@
+This folder will contain images for the website.
+
+Replace placeholder images with actual figures from the paper, such as:
+- Overview of the Latent Drifting architecture
+- Example counterfactual images
+- Evaluation results
+- Comparison with baselines

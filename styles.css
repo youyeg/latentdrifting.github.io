@@ -1,0 +1,157 @@
+/* Styles for CVPR 2025 Paper Website */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.authors {
+    margin-bottom: 20px;
+}
+
+.author {
+    display: inline-block;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.institution {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.author-notes {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 2px;
+}
+
+.buttons {
+    margin: 25px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.abstract {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.figure img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.figure-caption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.bibtex {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    font-size: 0.9rem;
+    overflow-x: auto;
+}
+
+.highlight {
+    background-color: #ffffcc;
+    padding: 2px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.emails {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .author {
+        display: block;
+        margin: 10px 0;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        margin: 5px 0;
+        width: 80%;
+        text-align: center;
+    }
+}
